@@ -1,0 +1,145 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+form {
+    width: 380px;
+    border: 1px #bbb solid;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    padding: 15px;
+    margin: auto;
+    position: relative;
+}
+
+    form h3 {
+        text-align: center;
+        font-weight: normal;
+        margin-top: 12px;
+    }
+
+    form input {
+        font-size: 15px;
+    }
+
+    form input,
+    form textarea,
+    form select {
+        outline: none;
+        border: 1px #bbb solid;
+        border-radius: 4px;
+        padding: 4px 8px;
+    }
+
+.w100 {
+    width: 100%;
+}
+
+form > div {
+    margin: 8px 0;
+}
+
+form .ent {
+    text-align: left;
+}
+
+    form .ent label {
+        margin-left: 12px;
+    }
+
+    form .ent > input {
+        margin-left: 14px;
+    }
+
+form textarea {
+    width: 100%;
+    height: 110px;
+    resize: vertical;
+    font-size: 15px;
+}
+
+form button,
+.logout_form,
+.login_form {
+    width: 110px;
+    height: 32px;
+    background: rgb(70, 240, 180);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: calc(50% - 55px);
+    outline: none !important;
+    font-size: 15px;
+}
+
+    form button:active {
+        filter: brightness(115%);
+    }
+
+.logout_form,
+.login_form {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: unset;
+    background: #b00000 !important;
+    padding: 4px 10px;
+    height: unset;
+    color: #fff !important;
+    font-size: 14px;
+}
+
+.login_form {
+    background: rgb(46, 46, 201) !important;
+}
+
+.message {
+    font-size: 19px;
+    color: #008000;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.messageError {
+    color: #e00000;
+    font-size: 14px;
+}
+
+.borred {
+    border-color: #e00000;
+}
+
+.colred {
+    color: #e00000;
+}
+
+.message_info {
+    color: #ffa500 !important;
+}
+
+.pform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    min-height: 850px;
+}
+
+.pformAuth > form > div {
+    margin: 18px 0;
+}
+
+.editBut {
+    background: #ffa500 !important;
+}
