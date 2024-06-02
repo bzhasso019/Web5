@@ -13,11 +13,11 @@ label {
 }
 
 form {
-    width: 380px;
-    border: 1px #bbb solid;
-    border-radius: 10px;
-    background-color: #f8f8f8;
-    padding: 15px;
+    width: 800px;
+    border: 8px #763301 solid;
+    border-radius: 30px;
+    background-color: #474343;
+    padding: 10px;
     margin: auto;
     position: relative;
 }
@@ -29,7 +29,7 @@ form {
     }
 
     form input {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     form input,
@@ -63,7 +63,7 @@ form .ent {
 
 form textarea {
     width: 100%;
-    height: 110px;
+    height: 210px;
     resize: vertical;
     font-size: 15px;
 }
@@ -72,10 +72,10 @@ form button,
 .logout_form,
 .login_form {
     width: 110px;
-    height: 32px;
-    background: rgb(70, 240, 180);
+    height: 42px;
+    background: rgb(29 122 15);
     border: none;
-    border-radius: 6px;
+    border-radius: 22px;
     cursor: pointer;
     margin-left: calc(50% - 55px);
     outline: none !important;
@@ -89,8 +89,8 @@ form button,
 .logout_form,
 .login_form {
     position: absolute;
-    top: 12px;
-    right: 12px;
+    top: 20px;
+    right: 23px;
     width: unset;
     background: #b00000 !important;
     padding: 4px 10px;
@@ -100,7 +100,7 @@ form button,
 }
 
 .login_form {
-    background: rgb(46, 46, 201) !important;
+    background: rgb(38 109 12) !important;
 }
 
 .message {
